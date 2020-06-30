@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+body {
+  overflow-x: hidden;
+}
+article {
+  columns: 2;
+}
+.tree-on-box {
+  height: 450px;
+  position: absolute;
+  left: -120px;
+  bottom: -195px;
+  z-index: -1;
+}
+
+p.screen {
+  display: inline-block;
+  width: 70%;
+  margin: 0 15% 24px;
+}
+
+.compare {
+  position: relative;
+}
+
+.compare canvas {
+  position: absolute;
+  top: calc(50% - 75px);
+  left: calc(50% - 50px);
+}
+
+.lead {
+  margin: calc(-24px - 4vh) calc(-10px - 4vw);
+  margin-bottom: auto;
+  height: 75vmin;
+  overflow: hidden;
+  position: relative;
+}
+
+.lead .gatsby-image-wrapper {
+  position: absolute !important;
+  overflow: hidden;
+  height: 75vmin;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  filter: brightness(0.65);
+}
+
+.lead h1 {
+  z-index: 1;
+  position: relative;
+  color: white;
+  font-size: 50vmin;
+  margin: 0;
+  text-align: center;
+  font-weight: 100;
+  line-height: 1.25;
+  font-family: 'Forum', cursive;
+}
+
+.lead summary {
+  position: relative;
+  color: wheat;
+  text-align: center;
+  width: 80vmin;
+  margin: auto;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 768px) {
+  article {
+    columns: 1;
+  }
+}
+@media screen and (max-width: 375px) {
+  .lead h1 {
+    font-size: 40vmin;
+  }
+  .lead summary {
+    font-size: 1.2rem;
+  }
+}

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Истории о разработке Webgl сцен`,
+    description: `Это истории о том, как разработывать Webgl сцены для собственного удовольстия, без претензии на экспертизу`,
+    author: `@johnSamilin`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -14,7 +14,14 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        useMozJpeg: false,
+        stripMetadata: true,
+        defaultQuality: 100,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -30,5 +37,6 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    // `gatsby-plugin-less`,
   ],
 }
