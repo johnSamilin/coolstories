@@ -22,11 +22,9 @@
   },
   "devDependencies": {
     "bettertext.css": "^2.0.4",
-    "copy": "^0.3.2",
     "gatsby-plugin-less": "^3.2.4",
     "less": "^3.11.3",
-    "prettier": "2.0.5",
-    "rimraf": "^3.0.2"
+    "prettier": "2.0.5"
   },
   "keywords": [
     "gatsby"
@@ -38,8 +36,8 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean && rimraf johnSamilin.github.io",
-    "release": "yarn clean && yarn format && yarn build && yarn copy public/* johnSamilin.github.io"
+    "clean": "gatsby clean",
+    "release": "yarn clean && yarn format && yarn build"
   },
   "repository": {
     "type": "git",
