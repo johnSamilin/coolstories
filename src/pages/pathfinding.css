@@ -1,0 +1,32 @@
+.pathfinding-page article {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  right: 0;
+  top: 0;
+  background: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: calc(24px + 4vh);
+  padding-bottom: calc(24px + 4vh);
+  padding-left: 2rem;
+}
+
+.pathfinding-page header {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.pathfinding-page .pathfinding-demo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.pathfinding-page .date {
+  font-style: italic;
+  text-align: right;
+}

@@ -12,7 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "bettertext.css/bettertext.min.css"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, className }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
     }
   `)
 
-  return <main>{children}</main>
+  return <main className={className}>{children}</main>
 }
 
 Layout.propTypes = {
