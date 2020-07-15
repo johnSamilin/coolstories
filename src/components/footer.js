@@ -3,9 +3,9 @@ import React from "react"
 
 import "./footer.css";
 
-export const Footer = () => (
+export const Footer = ({ lang = 'ru' }) => (
   <footer>
-    <Link to="/">Содержание</Link>
+    <Link to="/">{lang === 'ru' ? 'Содержание' : 'Index'}</Link>
     <a href="mailto:alexandalexapps@outlook.com">Mail</a>
     <a href="https://www.linkedin.com/in/asaltykov/">Linkedin</a>
     <a href="https://github.com/johnSamilin">Github</a>

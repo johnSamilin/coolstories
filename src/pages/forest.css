@@ -71,6 +71,10 @@
   font-weight: 100;
 }
 
+.forest-page .lang-selector a {
+  color: white;
+}
+
 @media screen and (max-width: 768px) {
   .forest-page article {
     columns: 1;

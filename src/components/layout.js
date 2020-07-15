@@ -11,8 +11,9 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "bettertext.css/bettertext.min.css"
+import LangSelector from "./lang-selector"
 
-const Layout = ({ children, className }) => {
+const Layout = ({ children, className, lang, path }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -23,7 +24,10 @@ const Layout = ({ children, className }) => {
     }
   `)
 
-  return <main className={className}>{children}</main>
+  return <main className={className}>
+    <LangSelector lang={lang} path={path} />
+    {children}
+  </main>
 }
 
 Layout.propTypes = {

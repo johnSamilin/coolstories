@@ -10,7 +10,7 @@ import "./forest.css"
 import { Footer } from "../components/footer"
 
 const IndexPage = () => (
-  <Layout className="forest-page">
+  <Layout className="forest-page" path="forest">
     <SEO title="О процедурной генерации лесов" />
     <div className="lead">
       <ImageIndexLead />
