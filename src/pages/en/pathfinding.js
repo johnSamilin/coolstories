@@ -82,6 +82,10 @@ const Page = () => (
       <p>
         I hoped that a simple migration from browser level to WebAssembly gives me performance boost. But as you may see from performance profiler sceenshots, there's no much difference. Sometimes Wasm works even worse when you move the pointer to fast or move the camera around the scene. FPS may be 1-2. In the end, I'd prefer JS version because it's simpler, more stable and more convenient.
       </p>
+      <h3>Update</h3>
+      <p>
+        Simple <Link to="https://github.com/johnSamilin/assemblyscript-pathfinding/pull/1">build optimizations</Link> may speed up WebAssembly version up to 4 times. ¯\_(ツ)_/¯
+      </p>
       <h3>P.S.</h3>
       <p>
         <br/>
