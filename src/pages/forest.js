@@ -11,7 +11,7 @@ import { Footer } from "../components/footer"
 
 const IndexPage = () => (
   <Layout className="forest-page" path="forest">
-    <SEO title="О процедурной генерации лесов" />
+    <SEO lang="ru" title="О процедурной генерации лесов" />
     <div className="lead">
       <ImageIndexLead />
       <h1>Лес</h1>
@@ -88,8 +88,8 @@ const IndexPage = () => (
         числами от 1 до 3 и массив координат, на которых должны располагаться
         деревья. Зачем нам матрица, спросите вы. Затем, что она показывает
         проходимые (пусто) и непроходимые (дерево) области, а мы хотим знать{" "}
-        <del>где сидит фазан</del> это, чтобы использовать в алгоритме <Link to="/pathfinding">поиска
-        пути</Link>. Итак, что же получилось?
+        <del>где сидит фазан</del> это, чтобы использовать в алгоритме{" "}
+        <Link to="/pathfinding">поиска пути</Link>. Итак, что же получилось?
       </p>
       <p className="screen">
         <img src="/images/trees-close.PNG" />
@@ -151,9 +151,7 @@ const IndexPage = () => (
         </p>
       </div>
       <p>И получим вполне реалистичный лес.</p>
-      <p className="date">
-          1 июля 2020
-      </p>
+      <p className="date">1 июля 2020</p>
       <Footer />
     </article>
   </Layout>

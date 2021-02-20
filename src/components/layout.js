@@ -24,10 +24,12 @@ const Layout = ({ children, className, lang, path }) => {
     }
   `)
 
-  return <main className={className}>
-    <LangSelector lang={lang} path={path} />
-    {children}
-  </main>
+  return (
+    <main className={className}>
+      <LangSelector lang={lang} path={path} />
+      {children}
+    </main>
+  )
 }
 
 Layout.propTypes = {

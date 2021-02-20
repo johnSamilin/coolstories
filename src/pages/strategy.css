@@ -1,0 +1,30 @@
+.strategy-page h1 {
+  letter-spacing: 5rem;
+}
+.strategy-page summary {
+  font-size: larger;
+}
+.strategy-page p {
+  font-size: x-large;
+  hyphens: auto;
+}
+.strategy-page article {
+  columns: 2;
+  column-gap: 3rem;
+}
+.strategy-page #path-illustration {
+  float: right;
+  margin-right: -20%;
+  transform: scale(0.9) translate(-10%, 0px);
+  shape-outside: polygon(50% 0%, 90% 20%, 100% 60%, 75% 90%, 50% 75%, 20% 60%, 15% 20%);
+}
+.strategy-page .gif-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+.strategy-page .code {
+  font-size: x-small;
+  page-break-inside: avoid;
+}

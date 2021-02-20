@@ -6360,6 +6360,11 @@ gatsby-plugin-typescript@^2.4.6:
     "@babel/runtime" "^7.10.2"
     babel-plugin-remove-graphql-queries "^2.9.5"
 
+gatsby-plugin-yandex-metrika@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-yandex-metrika/-/gatsby-plugin-yandex-metrika-2.5.0.tgz#e915bbdf0c392111c8927a8f426021adedf42a6e"
+  integrity sha512-2dJr9qpAwrKJTNGtr5FJDMIkQd3Kd5l4iNOMGZodvfe5uv7lgy9WH7uoFDeeFSvsg7cg+SKAKETPN1hEUry+zg==
+
 gatsby-react-router-scroll@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-3.0.4.tgz#8de6d0d09fc50541cd074ed9cf9f14124a4b1442"
@@ -7286,6 +7291,11 @@ hicat@^0.7.0:
   dependencies:
     highlight.js "^8.1.0"
     minimist "^0.2.0"
+
+highlight.js@^10.5.0:
+  version "10.6.0"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-10.6.0.tgz#0073aa71d566906965ba6e1b7be7b2682f5e18b6"
+  integrity sha512-8mlRcn5vk/r4+QcqerapwBYTe+iPL5ih6xrNylxrnBdHQiijDETfXX7VIxC3UiCRiINBJfANBAsPzAvRQj8RpQ==
 
 highlight.js@^8.1.0:
   version "8.9.1"
@@ -11312,6 +11322,13 @@ react-helmet@^6.1.0:
     react-fast-compare "^3.1.1"
     react-side-effect "^2.1.0"
 
+react-highlight@^0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/react-highlight/-/react-highlight-0.13.0.tgz#3331d47fe45a3db0cdcca2e5b479ed81b117ac20"
+  integrity sha512-k8BfWsTN9mFy+ijXvg79Gk6qOtAX0HU4OHW25QQz339PDHbov6N+frJWygFOAR1rPxMeC9y9cvYJRjaAaXs9dw==
+  dependencies:
+    highlight.js "^10.5.0"
+
 react-hot-loader@^4.12.21:
   version "4.12.21"
   resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.12.21.tgz#332e830801fb33024b5a147d6b13417f491eb975"
@@ -11360,6 +11377,13 @@ react-refresh@^0.7.0:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.7.2.tgz#f30978d21eb8cac6e2f2fde056a7d04f6844dd50"
   integrity sha512-u5l7fhAJXecWUJzVxzMRU2Zvw8m4QmDNHlTrT5uo3KBlYBhmChd7syAakBoay1yIiVhx/8Fi7a6v6kQZfsw81Q==
+
+react-rough-notation@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-rough-notation/-/react-rough-notation-1.0.1.tgz#ac0f3e52734c59e2c7659a3f361e4bca5e637885"
+  integrity sha512-UZQZ09XiZgbDRZFFP0qaFmTzs0rMKO929Npa5fHb2TOzLvKNEamaUtjRwjBx79cFzf+xMl/y8Y4HbYvvcKHQGQ==
+  dependencies:
+    rough-notation "^0.4.0"
 
 react-rough@^2.3.0:
   version "2.3.0"
@@ -11929,6 +11953,16 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
   dependencies:
     hash-base "^3.0.0"
     inherits "^2.0.1"
+
+rough-notation@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/rough-notation/-/rough-notation-0.4.0.tgz#6f97324cb50fc91ec8064219253aa2528a69210f"
+  integrity sha512-hDgn9qMIxWnfY+WWjt30aLMtDHR13H8r/NI3EQNdJiEFAzpklH5nKg4eH/thpxCWTYzyg8ueMsKIfz9MzOBQ4Q==
+
+rough-notation@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/rough-notation/-/rough-notation-0.5.1.tgz#32abbb16b973fb00fba83ab96b18704e98620e95"
+  integrity sha512-ITHofTzm13cWFVfoGsh/4c/k2Mg8geKgBCwex71UZLnNuw403tCRjYPQ68jSAd37DMbZIePXPjDgY0XdZi9HPw==
 
 roughjs@^4.3.1:
   version "4.3.1"
