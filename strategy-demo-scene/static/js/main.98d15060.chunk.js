@@ -160,9 +160,9 @@
               return (
                 Object(a.useEffect)(
                   function () {
-                    s.loadAsync("/models/".concat(e, ".fbx")).then(function (
-                      e
-                    ) {
+                    s.loadAsync(
+                      "/strategy-demo-scene/models/".concat(e, ".fbx")
+                    ).then(function (e) {
                       o(e)
                     })
                   },
@@ -555,7 +555,7 @@
         })(),
         T = n(61)
       function W(e) {
-        var t = Object(v.e)(T.a, "/models/pine/scene.gltf"),
+        var t = Object(v.e)(T.a, "/strategy-demo-scene/models/pine/scene.gltf"),
           n = t.nodes,
           a = t.materials,
           i = e.scale,
